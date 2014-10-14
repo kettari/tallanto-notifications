@@ -1,8 +1,9 @@
-<p>Здравствуйте, {$Contacts.first_name}!</p>
-<p>{if $remaining_seats &gt; 0}Вы успешно записались на занятие &laquo;{$name}&raquo;, дата и время начала: <span>{$date_start}</span>.</p>
+<p><strong><span style="font-size: large;">Здравствуйте, {$Contacts.first_name}!</span></strong></p>
+<p>{if $remaining_seats &gt; 0}<span style="font-size: large;">Вы успешно записались на занятие &laquo;{$name}&raquo;, дата и время начала: {$date_start}.</span></p>
 <p>{if $most_abonements.id}<img src="http://www.kaula.ru/sites/all/themes/skyfull/images/emo_happy.png" alt=":)" width="32" height="32" />&nbsp;Для посещения данного занятия у вас есть подходящий абонемент, действующий с {$most_abonements.start_date} до {$most_abonements.finish_date}.{else}<img src="http://www.kaula.ru/sites/all/themes/skyfull/images/emo_neutral.png" alt=":|" width="32" height="32" />&nbsp;Для посещения данного занятия у вас <strong>нет подходящего абонемента</strong> (либо он не активирован). Без этого мы не можем гарантировать для вас место на занятии.{/if}</p>
 <p>{else}<img src="http://www.kaula.ru/sites/all/themes/skyfull/images/emo_sad.png" alt=":(" width="32" height="32" />&nbsp;Вы оставили заявку на посещение занятия &laquo;{$name}&raquo;. К сожалению, мест больше нет.</p>
 <p>Если появятся свободные места, мы обязательно с вами свяжемся.{/if}</p>
+<p>&nbsp;</p>
 <!--<p style="padding-top: 1.5em;">Участвуйте в программе «Приведи друга»! Пригласите друзей, переслав им эту <a style="font-size: 14px;" href="{$referer_link}">ссылку</a> или заполнив <a href="{$referer_link}">форму</a> за них!</p>-->
 <p>{if $remaining_seats &gt; 0}</p>
 <hr />
