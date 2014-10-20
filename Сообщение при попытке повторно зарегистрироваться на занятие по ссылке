@@ -1,9 +1,9 @@
 <p><strong><span style="font-size: large;">Здравствуйте, {$Contacts.first_name}!</span></strong></p>
-<p><span style="font-size: large;">{if $most_abonements.id}Вы уже записаны на занятие &laquo;{$name}&raquo;, дата и время начала: {$date_start}.{else}Вы уже записаны в лист ожидания на занятие &laquo;{$name}&raquo;, дата и время начала:&nbsp;{$date_start}.{/if}</span></p>
-<hr /><!-- BANNER -->
-<div style="float: left; padding: 0 10px 0 0;"><a href="http://www.kaula.ru/meropriyatiya/19-10_master-klass-rinada-minvaleeva-pranayama-dykhatelnye-tekhniki-i-meditatsiya"> <img src="http://www.kaula.ru/sites/all/themes/skyfull/images/tl_notif_img/event_2014-10-16_minvaleev.png" alt="Минвалеев" /></a></div>
-<p><strong>Приглашаем Вас на мастер-класс</strong><br /><strong> &laquo;<a href="http://www.kaula.ru/meropriyatiya/19-10_master-klass-rinada-minvaleeva-pranayama-dykhatelnye-tekhniki-i-meditatsiya">Секреты Пранаямы и Медитации</a>&raquo;</strong><br /> известного российского физиолога, профессора<br /> Р. С. Минвалеева. Мастер-класс состоится 19 октября,<br /> в воскресенье, 12.00-16.00.</p>
-<div class="clear:both">&nbsp;</div>
+<p><span style="font-size: large;">Вы уже записаны на занятие &laquo;{$name}&raquo;,<br />дата и время начала: {$date_start}.</span></p>
+<!-- BANNER --><hr />
+<div style="float: left; padding: 0 10px 0 0;"><a href="http://www.kaula.ru/meropriyatiya/25-10_bannyi-den-totalnoe-ochishchenie-i-ioga-s-ilei-dunaevskim?utm_source=mail&amp;utm_medium=cpc&amp;utm_campaign=zapis_na_class"><img src="http://www.kaula.ru/sites/all/themes/skyfull/images/tl_notif_img/event_banya.png" alt="Банный день" /></a></div>
+<p><strong>Внимание!<br /><a href="http://www.kaula.ru/meropriyatiya/25-10_bannyi-den-totalnoe-ochishchenie-i-ioga-s-ilei-dunaevskim?utm_source=mail&amp;utm_medium=cpc&amp;utm_campaign=zapis_na_class">25 октября &laquo;Банный день&raquo;!</a></strong><br /> Под руководством И. Дунаевского: баня в сочетании с йогой,<br /> 4 часа тотального очищения, омоложения и релакса.<br /> Цена по предоплате за 3 дня: 3900 рублей</p>
+<div style="clear: both; visibility: hidden;">&nbsp;</div>
 <!-- /BANNER --><hr />
 <p><strong>Внимание!</strong> Если Ваши планы изменятся &mdash; пожалуйста, <a href="{$link_de_registration}">отпишитесь</a> или сообщите об этом администратору по телефону. Если Вы были записаны на занятие, но не пришли и не отписались &mdash; засчитывается &laquo;прогул&raquo;. После 5 таких случаев, мы к сожалению будем вынуждены закрыть для вас возможность предварительной записи.</p>
 <p><span style="font-size: x-small;"><strong>Внимание</strong>! Если вы случайно нажали на данную ссылку, перейдите по&nbsp;<a href="{$link_de_registration}">ссылке для отмены регистрации на занятие</a>.</span></p>
