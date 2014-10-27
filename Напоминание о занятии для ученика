@@ -1,0 +1,15 @@
+<p>Здравствуйте, {$Contacts.first_name}.<br />Напоминаем, что вы записаны на занятие {$name} которое состоится в {$date_start}.</p>
+<div><hr />{if $most_abonements.id}</div>
+<!--
+<div style="float: left; padding: 0 10px 0 0;"><a href="http://www.kaula.ru/meropriyatiya/25-10_bannyi-den-totalnoe-ochishchenie-i-ioga-s-ilei-dunaevskim?utm_source=mail&utm_medium=cpc&utm_campaign=zapis_na_class"><img src="http://www.kaula.ru/sites/all/themes/skyfull/images/tl_notif_img/event_banya.png" alt="Банный день" /></a></div>
+<p><strong>Внимание!<br /><a href="http://www.kaula.ru/meropriyatiya/25-10_bannyi-den-totalnoe-ochishchenie-i-ioga-s-ilei-dunaevskim?utm_source=mail&utm_medium=cpc&utm_campaign=zapis_na_class">25 октября «Банный день»!</a></strong><br /> Под руководством И. Дунаевского: баня в сочетании с йогой,<br /> 4 часа тотального очищения, омоложения и релакса.<br /> Цена по предоплате за 3 дня: 3900 рублей</p>
+<div style="clear: both; visibility: hidden;"> </div>
+-->
+<div>{else}</div>
+<div style="float: left; padding: 0 10px 0 0;"><img src="http://www.kaula.ru/sites/all/themes/skyfull/images/tl_notif_img/no_ticket_cat.png" alt=":|" /></div>
+<p><span style="color: #ff0000;">Важно</span>, по правилам нашей Школы приоритетное право Записи на занятия принадлежит обладателям абонементов. Мы сожалеем, но Запись без абонемента или предоплаты, не гарантирует место на занятии. Для гарантированного бронирования и существенной экономии, рекомендуем выбрать абонемент <a href="http://www.kaula.ru/price_turgenevskaya">здесь</a>.</p>
+<div style="clear: both; visibility: hidden;">&nbsp;</div>
+<div>{/if}</div>
+<p>{if $config.default_payment_gateway AND $disable_payment == "Нет" AND ($cost != 0 OR $prepayment_cost != 0) AND empty($most_abonements.id)}<a title="Оплатить занятие онлайн" href="{$link_pay}">Оплатить!</a>{/if} <!-- Closure --></p>
+<hr />
+<p><strong>Внимание!</strong> Если Ваши планы изменятся &mdash; пожалуйста, <a href="{$link_de_registration}">отпишитесь</a> или сообщите об этом администратору по телефону. Если Вы были записаны на занятие, но не пришли и не отписались &mdash; засчитывается &laquo;прогул&raquo;. После 5 таких случаев, мы к сожалению будем вынуждены закрыть для вас возможность предварительной записи.</p>
