@@ -1,15 +1,15 @@
 <p><strong><span style="font-size: large;">Здравствуйте, {$Contacts.first_name}!</span></strong>{if $remaining_seats &gt; 0}</p>
 <p><span style="font-size: large;">Вы записаны на занятие &laquo;{$name}&raquo;,<br />дата и время: {$date_start}.</span></p>
 <div><hr />{if $most_abonements.id}</div>
-<!-- BANNER -->
-<div style="float: left; padding: 0 10px 0 0;"><a href="http://www.kaula.ru/meropriyatiya/25-10_bannyi-den-totalnoe-ochishchenie-i-ioga-s-ilei-dunaevskim?utm_source=mail&amp;utm_medium=cpc&amp;utm_campaign=zapis_na_class"><img src="http://www.kaula.ru/sites/all/themes/skyfull/images/tl_notif_img/event_banya.png" alt="Банный день" /></a></div>
-<p><strong>Внимание!<br /><a href="http://www.kaula.ru/meropriyatiya/25-10_bannyi-den-totalnoe-ochishchenie-i-ioga-s-ilei-dunaevskim?utm_source=mail&amp;utm_medium=cpc&amp;utm_campaign=zapis_na_class">25 октября &laquo;Банный день&raquo;!</a></strong><br /> Под руководством И. Дунаевского: баня в сочетании с йогой,<br /> 4 часа тотального очищения, омоложения и релакса.<br /> Цена по предоплате за 3 дня: 3900 рублей</p>
-<div style="clear: both; visibility: hidden;">&nbsp;</div>
+<!-- BANNER --
+<div style="float: left; padding: 0 10px 0 0;"><a href="http://www.kaula.ru/meropriyatiya/25-10_bannyi-den-totalnoe-ochishchenie-i-ioga-s-ilei-dunaevskim?utm_source=mail&utm_medium=cpc&utm_campaign=zapis_na_class"><img src="http://www.kaula.ru/sites/all/themes/skyfull/images/tl_notif_img/event_banya.png" alt="Банный день" /></a></div>
+<p><strong>Внимание!<br /><a href="http://www.kaula.ru/meropriyatiya/25-10_bannyi-den-totalnoe-ochishchenie-i-ioga-s-ilei-dunaevskim?utm_source=mail&utm_medium=cpc&utm_campaign=zapis_na_class">25 октября «Банный день»!</a></strong><br /> Под руководством И. Дунаевского: баня в сочетании с йогой,<br /> 4 часа тотального очищения, омоложения и релакса.<br /> Цена по предоплате за 3 дня: 3900 рублей</p>
+<div style="clear: both; visibility: hidden;"> </div>
 <!-- /BANNER -->
 <div>{else}</div>
 <!-- No ticket -->
 <div style="float: left; padding: 0 10px 0 0;"><img src="http://www.kaula.ru/sites/all/themes/skyfull/images/tl_notif_img/no_ticket_cat.png" alt=":|" /></div>
-<p><span style="color: #ff0000;">Важно</span>, по правилам нашей Школы приоритетное право Записи на занятия принадлежит обладателям абонементов. Мы сожалеем, но Запись без абонемента или предоплаты, не гарантирует место на занятии. Для гарантированного бронирования и существенной экономии, рекомендуем выбрать абонемент <a href="http://www.kaula.ru/select_school_price">здесь</a>.</p>
+<p><span style="color: #ff0000;">Важно</span>, по правилам нашей Школы приоритетное право Записи на занятия принадлежит обладателям абонементов. Мы сожалеем, но Запись без абонемента или предоплаты, не гарантирует место на занятии. Для гарантированного бронирования и существенной экономии, рекомендуем выбрать абонемент <a href="http://www.kaula.ru/price_turgenevskaya">здесь</a>.</p>
 <div style="clear: both; visibility: hidden;">&nbsp;</div>
 <div>{/if}{else}</div>
 <!-- No seats -->
